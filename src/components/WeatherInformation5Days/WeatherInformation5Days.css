@@ -1,0 +1,40 @@
+.forecastWeatherContainer {
+    background-color: rgba(255, 255, 255, 0.665);
+    border-radius: 10px;
+    padding: 25px 30px 40px 30px;
+}
+
+.fiveDaysTitle {
+    font-size: 2rem;
+    color: #f57c00;
+    margin-bottom: 20px;
+}
+
+.weatherList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.weatherItens {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.forecastDate {
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.forecastDescription {
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.forecastTemperature {
+    font-size: 15px;
+}
